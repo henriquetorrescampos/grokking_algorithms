@@ -1,6 +1,8 @@
 # 3 -> [1, 1, 2]
 def fibonnaci(num):
-    
+    if num < 0:
+        raise Exception("The number needs to be positive.")
+
     res = [] # 1, 1
     prev, curr = 0, 1
 
