@@ -18,6 +18,4 @@ def fibonacci(num):
     return res
     # return sequencie in a array
 
-fibonacci(5)
-fibonacci(0)
-fibonacci(-5)
+fibonacci(6)
