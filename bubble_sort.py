@@ -6,7 +6,8 @@ def bubble_sort(my_list):
         for j in range(list_len - 1 - i):
             if my_list[j] > my_list[j+1]:
                 my_list[j], my_list[j+1] = my_list[j+1] , my_list[j] # swap
-
+    return my_list
+        
 my_list = [9, 5, 4, 3, 1]
-bubble_sort(my_list)
-print(my_list)
+
+print(bubble_sort(my_list))
