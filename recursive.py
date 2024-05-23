@@ -20,13 +20,13 @@ either an empty array or am array with one element"""
 
 # print(sum([1, 2, 3]))
 
-def count(nums):
-    if nums == []:
-        return 0
-    else:
-        return 1 + count(nums[1:])
+# def count(nums):
+#     if nums == []:
+#         return 0
+#     else:
+#         return 1 + count(nums[1:])
 
-print(count([1, 2, 3, 9, 9, 9, 0]))
+# print(count([1, 2, 3, 9, 9, 9, 0]))
 
 
 
