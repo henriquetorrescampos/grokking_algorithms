@@ -28,5 +28,12 @@ either an empty array or am array with one element"""
 
 # print(count([1, 2, 3, 9, 9, 9, 0]))
 
+def highest_value(nums):
+    if len(nums) == 2:
+        return nums[0] if nums[0] > nums[1] else nums[1]
+    else:
+        num_higher = highest_value(nums[1:])
+        return nums[0] if nums[0] > num_higher else num_higher
 
+print(highest_value([2, 3, 4, 9]))
 
