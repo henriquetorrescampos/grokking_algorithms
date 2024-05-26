@@ -23,17 +23,3 @@
 
 
 # print(two_sum([2, 3, 4, 4], 8))
-
-
-def two_sum(nums, target):
-    dict = {}
-    for index, value in enumerate(nums):
-        dict[value] = index
-    
-    for index, value in enumerate(nums):
-        desired = target - value
-        if desired in dict and dict[desired] != index:
-            return index, dict[desired]
-
-
-print(two_sum([2, 3, 4, 4], 8))
