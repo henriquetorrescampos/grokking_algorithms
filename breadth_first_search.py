@@ -13,7 +13,7 @@ graph = {
 }
 
 def person_is_saller(name):
-    return name[-1] == 'm'
+    return name[-1] == 'a'
 
 def search(name):
     queue = deque()
