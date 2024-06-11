@@ -17,7 +17,7 @@ def roman_int(s: str) -> int:
             count += roman[s[i]] 
     return count
 
-print(roman_int('III'))
+# print(roman_int('III'))
 print(roman_int('IV'))
 
 
