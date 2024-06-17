@@ -8,6 +8,14 @@
 # n = 5
 
 # factorial(n)
-import math
 
-print(math.log2(100))
+
+def factorial2(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial2(n - 1)
+    
+print(factorial2(5))
+
+

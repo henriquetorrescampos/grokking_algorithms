@@ -1,7 +1,7 @@
 """
 -- Recursive function --
 When writing a recursive function that involvs an array, base-case will be many times 
-either an empty array or am array with one element"""
+either an empty array or an array with one element"""
 
 # def fat(x):
 #     if x == 1:

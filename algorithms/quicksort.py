@@ -10,3 +10,4 @@ def quicksort(array):
 print(quicksort([2, 5, 4, 1, 3]))
 print(quicksort([3, 1]))
 print(quicksort([2, 5, 4, 10]))
+
