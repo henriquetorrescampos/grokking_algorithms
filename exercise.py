@@ -1,16 +1,16 @@
 #"Implemente um algoritmo para determinar se uma string não tem caracteres repetidos."
 
-# def repetidos(string):
-#     char_set = set() #retorna um conjunto com uniques numeros
-#     for i in string:
-#         if i in char_set:
-#             return 'sou repetido'
-#         else:
-#             char_set.add(i)
-#     return 'nao sou repetido'
+def repetidos(string):
+    char_set = set() #retorna um conjunto com uniques numeros
+    for i in string:
+        if i in char_set:
+            return 'sou repetido'
+        else:
+            char_set.add(i)
+    return 'nao sou repetido'
 
-# repetidos('string')
-# repetidos('testa')
+repetidos('string')
+repetidos('testa')
 
 def has_unique_characters(s):
     # Ordena a string
