@@ -19,3 +19,10 @@ def factorial2(n):
 print(factorial2(5))
 
 
+def add(n):
+    if n <= 0: #base case
+        return 0
+    else: # 2 + add(1) / 
+        return n + add(n - 1) #recusive case
+
+add(2)
