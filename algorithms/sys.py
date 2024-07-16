@@ -20,3 +20,4 @@ def permutation(array, n):
 array = [1, 2, 3]
 
 permutation(array, len(array))
+
