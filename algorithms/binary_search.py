@@ -17,3 +17,10 @@ def binary_search(a_list, item):
 num_list = [1, 3, 4, 5, 6]
 
 print(binary_search(num_list, 6))
+
+'''
+Space Complexity
+reflects aditional memory to run the algorithm
+in this algorithm we have O(1) space complexity
+because all the variable are O(1)
+'''
