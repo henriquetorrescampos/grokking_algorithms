@@ -15,7 +15,6 @@ def two_sum(nums, target):
     dict = {}
     for index, value in enumerate(nums):
         difference = target - value # 5 - 2 = 3, 5 - 3 = 2
-        print(dict)
         if difference in dict: # se diferente estiver em dict 
             # print([dict[difference]]) # chamo o [dicionario[key]] pego valor {4: 2}, pego o valor 2
             return [dict[difference], index]

@@ -24,3 +24,4 @@ def has_unique_characters(s):
     return 'nao sou repetido'
 
 has_unique_characters('tesa')
+
