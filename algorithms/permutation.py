@@ -1,23 +1,20 @@
-# string = 'testando'
-# i = 0
-# while i < len(string):
-#     print(string[i])
-#     i += 1
+def permutations(array):
+    c = [0] * len(array)
+    print(array)
 
-def permutation(array, n):
-    if n == 1:
-        print(array)
-        return 
-    
-    for i in range(n):
-        permutation(array, n - 1)
-        if n % 2 == 0:
-            array[i], array[n-1] = array[n-1], array[i]
+    i = 0
+    while i < len(array):
+        if c[i] < i:
+            if i % 2 == 0:
+                array[0], array[i] = array[i], array[0]
+            else:
+                array[c[i]], array[i] = array[i], array[c[i]]
+            print(array)
+            c[i] += 1
+            i = 0
         else:
-            array[0], array[n-1] = array[n-1], array[0]
-    return array
+            c[i] = 0
+            i += 1
 
 array = [1, 2, 3]
-
-permutation(array, len(array))
-
+permutations(array)
