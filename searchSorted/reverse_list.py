@@ -1,3 +1,4 @@
+# Time: O(n)  Space: O(1)
 def reverse(array):
     len_array = len(array)
     for i in range(len_array // 2):

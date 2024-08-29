@@ -1,3 +1,4 @@
+#Time O(n log n) Space O(n log n)
 def quicksort(array):
     if len(array) < 2:
         return array
@@ -8,7 +9,4 @@ def quicksort(array):
         return quicksort(low) + [pivot] + quicksort(high) # recursive case when call the function itself
     
 print(quicksort([2, 5, 4, 1, 3]))
-print(quicksort([3, 1]))
-print(quicksort([3]))
-print(quicksort([2, 5, 4, 10]))
 

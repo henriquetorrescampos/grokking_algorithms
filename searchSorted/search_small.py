@@ -1,3 +1,4 @@
+# time O(n) space: O(1)
 def search_smaller(arr):
     smaller = arr[0]
     smaller_index = 0
